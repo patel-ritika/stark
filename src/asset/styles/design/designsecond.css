@@ -42,3 +42,41 @@
     background-color: blue; /* Light blue on hover */
   }
   
+  /* Responsive Design */
+@media (max-width: 768px) {
+  .design_second_heading {
+    font-size: 30px; /* Smaller font size on mobile */
+    padding: 0 10px; /* Add some padding to prevent overflow */
+  }
+
+  .design_second_description {
+    font-size: 16px; /* Smaller description text */
+    padding: 0 10px; /* Add padding for better readability */
+  }
+
+  .design_second_get-started-button {
+    font-size: 14px; /* Smaller button text */
+    padding: 8px 15px; /* Adjust button padding */
+  }
+
+  .accessibility-image {
+    width: 100%; /* Ensure the image fits on smaller screens */
+    max-width: none; /* Remove the max-width constraint */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+@media (max-width: 480px) {
+  .design_second_heading {
+    font-size: 24px; /* Even smaller font size for very small screens */
+  }
+
+  .design_second_description {
+    font-size: 14px; /* Smaller text for small screens */
+  }
+
+  .design_second_get-started-button {
+    font-size: 12px; /* Reduce button text size for smaller screens */
+    padding: 6px 12px; /* Adjust button padding */
+  }
+}
