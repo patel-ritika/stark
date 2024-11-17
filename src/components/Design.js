@@ -2,6 +2,7 @@ import React from 'react';
 import DesignTop from './design/DesignTop';
 import DesignSecond from './design/DesignSecond';
 import DesignThird from './design/DesignThird';
+import DesignFour from './design/DesignFour';
 
 const Design = () => {
   return (
@@ -9,6 +10,7 @@ const Design = () => {
       <DesignTop/>
       <DesignSecond/>
       <DesignThird/>
+      <DesignFour/>
     </div>
   );
 }
