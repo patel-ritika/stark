@@ -1,0 +1,100 @@
+.homefour-container {
+    margin-top: 10rem;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .center-image {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .homefour_title {
+    color: #11284b;
+    font-size: 50px;
+    margin: 10px 0;
+  }
+  
+  .homefour_title .homefour_highlight {
+    background-color: #ffdb58; /* Methi yellow color */
+    padding: 0 5px;
+  }
+  
+  .homefour_description {
+    font-size: 18px;
+    font-weight: 500;
+    color: #11284b;
+    margin: 15px 0;
+    line-height: 1.6;
+  }
+  
+  .homefour_start-trial-button {
+    background-color: #381fd1; /* Blue color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+  }
+  
+  .homefour_start-trial-button:hover {
+    background-color: blue; /* Light blue on hover */
+  }
+  
+  /* Responsive Design */
+@media (max-width: 768px) {
+    .homefour-container {
+      margin-top: 5rem;
+      padding: 10px;
+    }
+  
+    .center-image {
+      max-width: 90%;
+      margin-bottom: 15px;
+    }
+  
+    .homefour_title {
+      font-size: 32px;
+    }
+  
+    .homefour_description {
+      font-size: 16px;
+      line-height: 1.4;
+      padding: 0 10px;
+    }
+  
+    .homefour_start-trial-button {
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .homefour-container {
+      margin-top: 3rem;
+      padding: 10px;
+    }
+  
+    .center-image {
+      max-width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .homefour_title {
+      font-size: 24px;
+    }
+  
+    .homefour_description {
+      font-size: 14px;
+      line-height: 1.3;
+    }
+  
+    .homefour_start-trial-button {
+      padding: 6px 12px;
+      font-size: 12px;
+    }
+  }
+  

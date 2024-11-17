@@ -1,0 +1,78 @@
+.homefive-container {
+    background-color: #a1decd;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+    max-width: 1000px;
+    margin: 10rem auto;
+  }
+  
+  .homefive-container h5 {
+    color: #381fd1;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .homefive-container h1 {
+    font-size: 3rem;
+    color: #11284b;
+    margin-bottom: 20px;
+  }
+  
+  .homefive_content-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .homefive_content-column {
+    padding-left: 2rem;
+    flex: 1 1 45%; /* Two columns layout */
+    text-align: left;
+  }
+  
+  .homefive_content-column img {
+    width: 20%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .homefive_content-column h4 {
+    color: #381fd1;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  .homefive_content-column p {
+    color: #4b4b4e;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  /* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .homefive-container {
+      padding: 10px;
+    }
+    
+    .homefive-container h1 {
+      font-size: 2rem;
+    }
+    
+    .homefive_content-row {
+      flex-direction: column; /* Stack columns in a single column */
+      gap: 10px;
+    }
+    
+    .homefive_content-column {
+      flex: 1 1 100%;
+      padding: 0;
+      text-align: left; 
+    }
+    
+    .homefive_content-column img {
+      width: 50%; /* Adjust image size for smaller screens */
+      max-width: 100px;
+    }
+}  

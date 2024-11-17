@@ -1,0 +1,70 @@
+.hometools-container {
+    margin-top: 10rem;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .tools_center-image {
+    width: 1100px; /* Adjust as needed */
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .tools_highlight-text {
+    color: #11284b;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .tools_highlight {
+    background-color: #f0e68c; /* Methi yellow color */
+    padding: 0 5px;
+  }
+  
+  .tools_description {
+    color: #11284b;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .tools_get-started-button {
+    background-color: #381fd1;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+  }
+  
+  .tools_get-started-button:hover {
+    background-color: blue; /* Light blue color on hover */
+  }
+  
+  /* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    .tools_center-image {
+      width: 95%; /* Image size reduced on mobile */
+      max-width: 400px;
+    }
+    
+    .tools_highlight-text {
+      font-size: 30px; /* Smaller font size for mobile */
+      margin-bottom: 15px;
+    }
+  
+    .tools_description {
+      font-size: 14px;
+      line-height: 1.4;
+      margin-bottom: 15px;
+    }
+  
+    .tools_get-started-button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }

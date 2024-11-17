@@ -1,0 +1,92 @@
+/* Main container styling */
+.homeback-container {
+  display: flex;
+  align-items: flex-start;
+  background-color: #f6f6eb; /* Off-white background */
+  padding: 20px;
+  position: relative;
+  margin-left: 50px;
+}
+
+/* Styling for the image that appears on hover */
+.homeback_hover-image {
+  position: absolute;
+  left: 10px;
+  width: 600px; /* Adjust size as needed */
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+/* Text content styling on the right side */
+.homeback_text-content {
+  margin-left: 600px; /* Space for the hover image */
+  color: #333;
+}
+
+/* Styling for h5, h1, and h4 elements */
+.homeback_text-content h5 {
+  color: #381fd1;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.homeback_text-content h1 {
+  font-size: 40px;
+  color: #11284b;
+  margin-bottom: 20px;
+}
+
+.homeback_text-content .homeback_highlight {
+  background-color: #f4d03f; /* Light mustard yellow for "across departments" */
+  padding: 0 5px;
+}
+
+/* Styling for each h4 and paragraph */
+.homeback_role-section h4 {
+  text-align: left;
+  font-size: 20px;
+  color: #333;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.homeback_role-section h4:hover {
+  color: #0073e6; /* Change color on hover */
+}
+
+.homeback_role-section p {
+  font-size: 14px;
+  color: #555;
+  margin: 5px 0 15px;
+}
+
+/* Responsive styling for mobile screens */
+@media (max-width: 768px) {
+  .homeback-container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    margin-left: 0;
+  }
+
+  .homeback_hover-image {
+    display: none; /* Hide image on mobile */
+  }
+
+  .homeback_text-content {
+    margin-left: 0;
+  }
+
+  .homeback_text-content h1 {
+    font-size: 24px; /* Smaller font for mobile */
+  }
+
+  .homeback_role-section h4 {
+    font-size: 18px; /* Adjust h4 font size */
+  }
+
+  .homeback_role-section p {
+    font-size: 12px; /* Adjust paragraph font size */
+  }
+}

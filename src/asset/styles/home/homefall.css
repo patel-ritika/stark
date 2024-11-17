@@ -1,0 +1,78 @@
+.homefall-container {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .fall_image-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .fall_scroll-image {
+    width: 200px; /* Adjust as needed */
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+    opacity: 0;
+    transform: translateY(100px);
+    animation: fadeIn 1s forwards;
+  }
+  
+  /* Animation for scrolling effect */
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Styling for H1 */
+  .homefall-container h1 {
+    color: #11284b;
+    font-size: 50px;
+    margin-bottom: 15px;
+  }
+  
+  .fall_highlight {
+    background-color: #FFDB58; /* Methi yellow color */
+  }
+  
+  /* Styling for H4 */
+ .homefall-container h4 {
+    color: #11284b;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+  
+  /* Responsive adjustments */
+@media (max-width: 768px) {
+    .fall_image-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+  
+    .fall_scroll-image {
+      width: 130px; /* Smaller size for mobile */
+    }
+  
+    /* Place first two images in a row, third below in center */
+    .fall_image-row img:nth-child(1),
+    .fall_image-row img:nth-child(2) {
+      display: inline-block;
+    }
+  
+    .fall_image-row img:nth-child(3) {
+      margin-top: 20px;
+    }
+  
+    .homefall-container h1 {
+      font-size: 30px; /* Smaller font size for mobile */
+    }
+  
+    .homefall-container h4 {
+      font-size: 14px; /* Smaller font size for mobile */
+    }
+  }

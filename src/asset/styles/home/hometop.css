@@ -1,0 +1,75 @@
+/* src/components/HomeTop.css */
+
+.home-top {
+    background-color: #381fd1;
+    height: 600px;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    position: relative;
+  }
+  
+  .home-top h1 {
+    font-size:100px;
+    margin: 10px 0;
+  }
+  
+  .home-top h3 {
+    margin: 10px 0;
+    font-weight: normal;
+  }
+  
+  .signup-button {
+    background-color: #ffdb58; /* Dark mustard yellow */
+    color: #11284b;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .signup-button:hover {
+    background-color: #ffe47a; /* Light mustard yellow on hover */
+  }
+  
+  .decorative-image {
+    width: 1150px; /* Adjust size as needed */
+    position: absolute;
+    top: 75%; /* Partly on and below the blue background */
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive styling */
+@media (max-width: 768px) {
+  .home-top {
+    padding: 20px;
+    height: 350px;
+  }
+
+  .home-top h1 {
+    font-size: 40px;
+  }
+
+  .home-top h3 {
+    font-size: 18px;
+  }
+
+  .signup-button {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .decorative-image {
+    width: 90%; /* Resize image for mobile */
+    display: block;
+    margin: 20px -165px 0;
+    transform: translateX(0); /* Center image for smaller screens */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+  }
+}
