@@ -1,0 +1,44 @@
+.designsecond-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .accessibility-image {
+    width: 100%;
+    max-width: 1200px; /* Adjust the image size */
+    margin-bottom: 20px;
+  }
+  
+  .design_second_heading {
+    color: #11284b;
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .design_second_highlight {
+    background-color: #f0e68c; /* Methi yellow background */
+  }
+  
+  .design_second_description {
+    color: #11284b;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .design_second_get-started-button {
+    background-color: #381fd1; /* Blue background */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+  }
+  
+  .design_second_get-started-button:hover {
+    background-color: blue; /* Light blue on hover */
+  }
+  
