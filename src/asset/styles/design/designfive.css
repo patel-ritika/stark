@@ -1,0 +1,40 @@
+/* designfive.css */
+
+.design_five-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .design_five_feature-image {
+    width: 100%; /* Adjust the image size as needed */
+    height: auto;
+  }
+  
+  .design_five_feature-heading {
+    font-size: 3rem;
+    color: #11284b;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .design_five_highlight {
+    background-color: #f0e68c; /* Methy yellow background */
+    padding: 5px 10px;
+  }
+  
+  /* Media query for mobile devices */
+@media (max-width: 768px) {
+    .design_five_feature-heading {
+      font-size: 2rem; /* Smaller font size for mobile */
+      margin-top: 15px;
+    }
+  
+    .design_five_highlight {
+      font-size: 1rem; /* Adjust text size inside the span */
+      padding: 3px 8px; /* Adjust padding for mobile */
+    }
+  
+    .design_five-container {
+      padding: 15px; /* Reduce padding on mobile */
+    }
+  }
