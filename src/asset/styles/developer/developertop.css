@@ -1,5 +1,5 @@
 /* Main container styling */
-.design-top {
+.develop-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -7,18 +7,18 @@
   }
   
   /* Left side content styling */
-  .design_top_content {
+  .develop_top_content {
     max-width: 50%;
   }
   
-  .design_top_content h5 {
+  .develop_top_content h5 {
     padding-right: 15rem;
     font-size: 16px;
     color: #381fd1;
     margin-bottom: 10px;
   }
   
-  .design_top_content h1 {
+  .develop_top_content h1 {
     text-align: left;
     padding-left: 5rem;
     font-size: 60px;
@@ -26,7 +26,7 @@
     margin-bottom: 15px;
   }
   
-  .design_top_content h4 {
+  .develop_top_content h4 {
     text-align: left;
     padding-left: 5rem;
     font-size: 18px;
@@ -37,13 +37,13 @@
   }
   
   /* Button row styling */
-  .design_top_button-row {
+  .develop_top_button-row {
     margin-left: 5rem;
     display: flex;
     gap: 10px;
   }
   
-  .design_top_btn-signup {
+  .develop_top_btn-signup {
     font-weight: 600;
     background-color: #381fd1;
     color: white;
@@ -54,11 +54,11 @@
     transition: background-color 0.3s ease;
   }
   
-  .design_top_btn-signup:hover {
+  .develop_top_btn-signup:hover {
     background-color: blue;
   }
   
-  .design_top_btn-trial {
+  .develop_top_btn-trial {
     font-weight: 600;
     background-color: white;
     color: blue;
@@ -69,18 +69,18 @@
     transition: background-color 0.3s ease, color 0.3s ease;
   }
   
-  .design_top_btn-trial:hover {
+  .develop_top_btn-trial:hover {
     background-color: #381fd1;
     color: white;
   }
   
   /* Right side image styling */
-  .design_top_image-container {
+  .develop_top_image-container {
     max-width: 45%;
     padding-right: 12rem;
   }
   
-  .design_top_image-container img {
+  .develop_top_image-container img {
     width: 130%;
     height: auto;
     object-fit: cover;
@@ -88,39 +88,39 @@
   
   /* Responsive styling for mobile */
 @media (max-width: 768px) {
-    .design-top {
+    .develop-top {
       flex-direction: column;
       align-items: flex-start;
       padding: 10px;
     }
   
-    .design_top_content {
+    .develop_top_content {
       max-width: 100%;
       padding-left: 1rem;
     }
   
-    .design_top_content h5 {
+    .develop_top_content h5 {
       padding-right: 12rem;
       font-size: 14px;
     }
   
-    .design_top_content h1 {
+    .develop_top_content h1 {
       font-size: 32px;
       padding-left: 0;
     }
   
-    .design_top_content h4 {
+    .develop_top_content h4 {
       font-size: 16px;
       padding-left: 0;
     }
   
-    .design_top_button-row {
+    .develop_top_button-row {
       flex-direction: column;
       margin-left: 0;
       gap: 10px;
     }
   
-    .design_top_image-container {
+    .develop_top_image-container {
       display: none; /* Hide image on mobile */
     }
   }

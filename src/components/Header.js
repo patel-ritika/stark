@@ -34,7 +34,11 @@ const Header = () => {
                                     </a>
                                     </h5>
                                     <p>Creative accessible designs in record<br />time right in Fgma & Sketch.</p>
-                                    <h5>Developers</h5>
+                                    <h5>
+                                    <a href="/developers" target="_blank" style={{ color: '#007bff', textDecoration: 'none' }}>
+                                      Developers
+                                    </a>
+                                    </h5>
                                     <p>Test and audit your code from early<br />implementation to live product.</p>
                                 </div>
                                 <div className="submenu-column">
