@@ -48,7 +48,11 @@ const Header = () => {
                                     </a>
                                     </h5>
                                     <p>Manage accessibility in real-time<br />across all your projects.</p>
-                                    <h5>Compliance Managers</h5>
+                                    <h5>
+                                    <a href="/compliance managers" target="_blank" style={{ color: '#007bff', textDecoration: 'none' }}>
+                                      Compliance Managers
+                                    </a>
+                                    </h5>
                                     <p>Monitor, manage and audit your<br />accessibility posture in one place.</p>
                                 </div>
                             </div>

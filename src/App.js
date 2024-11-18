@@ -6,6 +6,7 @@ import Header from './components/Header';
 import Home from './components/Home';
 import Developer from './components/Developer';
 import Product from './components/Product';
+import Compliance from './components/Compliance';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
   <Route path="/designers" element={<Design />} />
   <Route path="/developers" element={<Developer />} />
   <Route path="/product managers" element={<Product />} />
+  <Route path="/compliance managers" element={<Compliance />} />
 </Routes>
 
 
