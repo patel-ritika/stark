@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Home from './components/Home';
 import Developer from './components/Developer';
+import Product from './components/Product';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
   <Route path="/" element={<Home />} />
   <Route path="/designers" element={<Design />} />
   <Route path="/developers" element={<Developer />} />
+  <Route path="/product managers" element={<Product />} />
 </Routes>
 
 

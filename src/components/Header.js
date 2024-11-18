@@ -42,7 +42,11 @@ const Header = () => {
                                     <p>Test and audit your code from early<br />implementation to live product.</p>
                                 </div>
                                 <div className="submenu-column">
-                                    <h5>Product Managers</h5>
+                                    <h5>
+                                    <a href="/product managers" target="_blank" style={{ color: '#007bff', textDecoration: 'none' }}>
+                                      Product Managers
+                                    </a>
+                                    </h5>
                                     <p>Manage accessibility in real-time<br />across all your projects.</p>
                                     <h5>Compliance Managers</h5>
                                     <p>Monitor, manage and audit your<br />accessibility posture in one place.</p>

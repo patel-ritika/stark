@@ -1,0 +1,126 @@
+/* Main container styling */
+.product-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Left side content styling */
+  .product_top_content {
+    max-width: 50%;
+  }
+  
+  .product_top_content h5 {
+    padding-right: 15rem;
+    font-size: 16px;
+    color: #381fd1;
+    margin-bottom: 10px;
+  }
+  
+  .product_top_content h1 {
+    text-align: left;
+    padding-left: 5rem;
+    font-size: 60px;
+    color: #11284b;
+    margin-bottom: 15px;
+  }
+  
+  .product_top_content h4 {
+    text-align: left;
+    padding-left: 5rem;
+    font-size: 18px;
+    color: #11284b;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-weight: 500;
+  }
+  
+  /* Button row styling */
+  .product_top_button-row {
+    margin-left: 5rem;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .product_top_btn-signup {
+    font-weight: 600;
+    background-color: #381fd1;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .product_top_btn-signup:hover {
+    background-color: blue;
+  }
+  
+  .product_top_btn-trial {
+    font-weight: 600;
+    background-color: white;
+    color: blue;
+    padding: 10px 20px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .product_top_btn-trial:hover {
+    background-color: #381fd1;
+    color: white;
+  }
+  
+  /* Right side image styling */
+  .product_top_image-container {
+    max-width: 45%;
+    padding-right: 12rem;
+  }
+  
+  .product_top_image-container img {
+    width: 130%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  /* Responsive styling for mobile */
+@media (max-width: 768px) {
+    .product-top {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px;
+    }
+  
+    .product_top_content {
+      max-width: 100%;
+      padding-left: 1rem;
+    }
+  
+    .product_top_content h5 {
+      padding-right: 12rem;
+      font-size: 14px;
+    }
+  
+    .product_top_content h1 {
+      font-size: 32px;
+      padding-left: 0;
+    }
+  
+    .product_top_content h4 {
+      font-size: 16px;
+      padding-left: 0;
+    }
+  
+    .product_top_button-row {
+      flex-direction: column;
+      margin-left: 0;
+      gap: 10px;
+    }
+  
+    .product_top_image-container {
+      display: none; /* Hide image on mobile */
+    }
+  }
