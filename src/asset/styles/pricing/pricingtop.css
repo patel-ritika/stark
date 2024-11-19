@@ -1,0 +1,175 @@
+.pricing-container {
+    text-align: center;
+    background-color: #f6f6eb;
+    padding: 2em;
+    overflow-x: hidden;
+  }
+  
+  .pricing-title {
+    font-size: 3em;
+    color: #11284b;
+  }
+  
+  .pricing-subtitle {
+    margin-top: 0.5em;
+    font-size: 20px;
+    font-weight: 500;
+    color: #11284b;
+  }
+  
+  .pricing-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 1em 0;
+  }
+  
+  .btn-teams, .btn-individuals {
+    padding: 0.5em 1em;
+    margin: 0 0.5em;
+    border: 1px solid #381fd1;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .btn-teams {
+    color: #381fd1;
+    font-weight: 600;
+  }
+  
+  .btn-individuals {
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  .pricing-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 1.5em;
+  }
+  
+  .pricing-box {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 1em;
+    width: 250px;
+    text-align: left;
+  }
+
+  .pricing-box h4{
+    font-size: 20px;
+    color: #11284b;
+  }
+
+  .pricing-box h5{
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .pricing-box h1{
+    color: #11284b;
+  }
+  
+  .box-button {
+    padding: 0.5em 1em;
+    border: none;
+    margin-top: 1em;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+  }
+  
+  .offwhite-hover {
+    background-color: #f8f9fa;
+    border: 1px solid #381fd1;
+    color: #381fd1;
+    font-weight: 700;
+  }
+  
+  .offwhite-hover:hover {
+    background-color: #381fd1;
+    color: white;
+  }
+  
+  .blue-hover {
+    background-color: #381fd1;
+    color: white;
+  }
+  
+  .blue-hover:hover {
+    background-color: #0056b3;
+  }
+  
+  .features-list {
+    list-style: none;
+    padding: 0;
+    margin: 1em 0 0;
+  }
+  
+  .features-list li {
+    color: #4b4b4e;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5em;
+  }
+  
+  .features-list li svg {
+    margin-right: 0.5em;
+    color: #381fd1;
+  }
+  
+  /* Existing styles here... */
+
+@media (max-width: 768px) {
+    .pricing-container {
+      padding: 1em;
+    }
+  
+    .pricing-title {
+      font-size: 2em;
+    }
+  
+    .pricing-subtitle {
+      font-size: 16px;
+    }
+  
+    .pricing-buttons {
+      flex-direction: row;
+    }
+  
+    .btn-teams, .btn-individuals {
+      width: 100%;
+      margin: 0.5em 0;
+    }
+  
+    .pricing-boxes {
+      flex-direction: column;
+      gap: 1em;
+    }
+  
+    .pricing-box {
+      width: 90%;
+      padding: 1em;
+    }
+  
+    .pricing-box h4 {
+      font-size: 18px;
+    }
+  
+    .pricing-box h5, .pricing-box h1 {
+      font-size: 14px;
+    }
+  
+    .box-button {
+      width: 90%;
+      height: 40px;
+    }
+  
+    .features-list li {
+      font-size: 14px;
+    }
+  }
+  
