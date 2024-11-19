@@ -58,7 +58,11 @@ const Header = () => {
                             </div>
                         )}
                     </li>
-                    <li className="nav-item">PRICING</li>
+                    <li className="nav-item">
+                    <a href="/pricing" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}>
+                      PRICING
+                    </a>
+                    </li>
                     <li className="nav-item">SUPPORT</li>
                     <li 
                         className="nav-item"
