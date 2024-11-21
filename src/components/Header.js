@@ -77,7 +77,11 @@ const Header = () => {
                         {showResources && (
                             <div className="dropdown-menu resources-dropdown">
                                 <div className="submenu-column">
-                                    <h5>Blog</h5>
+                                    <h5>
+                                    <a href="/blog" target="_blank" style={{ color: '#007bff', textDecoration: 'none' }}>
+                                      Blog
+                                    </a>
+                                    </h5>
                                     <p>Read about the latest updates to<br />Stark and articles from our team.</p>
                                     <h5>Library</h5>
                                     <p>Learn about all things accessibility<br />and inclusive design.</p>

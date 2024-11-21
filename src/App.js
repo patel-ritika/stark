@@ -9,6 +9,7 @@ import Product from './components/Product';
 import Compliance from './components/Compliance';
 import Pricing from './components/Pricing';
 import Support from './components/Support';
+import Blog from './components/Blog';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
   <Route path="/compliance managers" element={<Compliance />} />
   <Route path="/pricing" element={<Pricing />} />
   <Route path="/support" element={<Support />} />
+  <Route path="/blog" element={<Blog />} />
 </Routes>
 
 
