@@ -63,7 +63,11 @@ const Header = () => {
                       PRICING
                     </a>
                     </li>
-                    <li className="nav-item">SUPPORT</li>
+                    <li className="nav-item">
+                    <a href="/support" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}>
+                      SUPPORT
+                    </a>
+                    </li>
                     <li 
                         className="nav-item"
                         onMouseEnter={() => setShowResources(true)}

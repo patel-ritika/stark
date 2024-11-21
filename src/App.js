@@ -8,6 +8,7 @@ import Developer from './components/Developer';
 import Product from './components/Product';
 import Compliance from './components/Compliance';
 import Pricing from './components/Pricing';
+import Support from './components/Support';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
   <Route path="/product managers" element={<Product />} />
   <Route path="/compliance managers" element={<Compliance />} />
   <Route path="/pricing" element={<Pricing />} />
+  <Route path="/support" element={<Support />} />
 </Routes>
 
 
