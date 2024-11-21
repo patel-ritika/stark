@@ -16,7 +16,7 @@
   
   .support-heading {
     padding-left: 20rem;
-    font-size: 60px;
+    font-size: 70px;
     text-align: left;
     margin-bottom: 15px;
     line-height: 1.5; /* लाइन के बीच थोड़ा गैप */
@@ -30,3 +30,36 @@
     line-height: 1.5;
   }
   
+  /* Responsive Styles */
+@media (max-width: 768px) {
+  .support-title,
+  .support-heading,
+  .support-subheading {
+    padding-left: 2rem; /* Adjust padding for smaller screens */
+    text-align: center; /* Center align text for smaller screens */
+  }
+
+  .support-heading {
+    font-size: 40px; /* Reduce font size */
+  }
+
+  .support-subheading {
+    font-size: 18px; /* Reduce font size */
+  }
+}
+
+@media (max-width: 480px) {
+  .support-title,
+  .support-heading,
+  .support-subheading {
+    padding-left: 1rem; /* Further adjust padding for very small screens */
+  }
+
+  .support-heading {
+    font-size: 30px; /* Further reduce font size */
+  }
+
+  .support-subheading {
+    font-size: 16px; /* Further reduce font size */
+  }
+}
