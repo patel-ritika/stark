@@ -1,0 +1,111 @@
+/* Main container styling */
+.support-second-container {
+    margin-top: 5rem;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Left-side list styling */
+  .support_left-list {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .support_left-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .support_left-list li {
+    font-size: 18px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .support_left-list li:hover {
+    color: #381fd1; /* Blue text color on hover */
+    border: 1px solid #381fd1; /* Blue border on hover */
+    background-color: #f0f0ff;
+  }
+  
+  /* Right-side content styling */
+  .support_right-content {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .support_content-box {
+    width: 700px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    background-color: #f0f0ff;
+  }
+  
+  .support_content-box h1 {
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #11284b;
+  }
+  
+  .support_content-box h4 {
+    text-align: left;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+  .support_content-box:hover {
+    border: 1px solid #381fd1; /* Blue border on hover */
+  }
+
+  /* Responsive styles */
+@media (max-width: 768px) {
+  .support-second-container {
+    flex-direction: column; /* Stack list and content vertically */
+  }
+
+  .support_left-list ul {
+    grid-template-columns: repeat(1, 1fr); /* Single column for smaller screens */
+  }
+
+  .support_content-box {
+    width: 90%; /* Full width for smaller devices */
+  }
+
+  .support_content-box h1 {
+    font-size: 18px; /* Adjust font size */
+  }
+
+  .support_content-box h4 {
+    font-size: 14px; /* Adjust font size */
+  }
+}
+
+@media (max-width: 480px) {
+  .support_left-list ul {
+    grid-template-columns: 1fr; /* Single column for very small screens */
+  }
+
+  .support_content-box {
+    padding: 15px; /* Reduce padding */
+  }
+
+  .support_content-box h1,
+  .support_content-box h4 {
+    font-size: 16px; /* Adjust font size further */
+  }
+}
