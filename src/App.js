@@ -28,6 +28,7 @@ function App() {
   <Route path="/pricing" element={<Pricing />} />
   <Route path="/support" element={<Support />} />
   <Route path="/blog" element={<Blog />} />
+  
 </Routes>
 
 
