@@ -1,0 +1,126 @@
+/* Main Container */
+.blog-photo-container {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    margin-top: 5rem;
+  }
+  
+  /* Left Side List */
+  .blog_photo_left-list {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .blog_photo_list-item {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+  }
+  
+  .blog_photo_list-item.active,
+  .blog_photo_list-item:hover {
+    border: 2px solid #381fd1;
+    background-color: #f0f8ff;
+    border-radius: 10px;
+  }
+  
+  /* Right Side Content */
+  .blog_photo_right-content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .blog_photo_content-item {
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 15px;
+    transition: all 0.3s ease;
+    background-color: #f0f8ff;
+  }
+  
+  .blog_photo_content-item:hover {
+    border-radius: 15px;
+    border: 2px solid #381fd1;
+    background-color: #f0f8ff;
+  }
+  
+  /* Content Image */
+  .blog_photo_content-image {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding-left: 5rem;
+  }
+  
+  /* Content Titles and Paragraphs */
+  .blog_photo_content-title {
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .blog_photo_content-description {
+    text-align: left;
+    font-weight: 400; 
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .blog_photo_content-read-more {
+    font-size: 14px;
+    color: #381fd1;
+    cursor: pointer;
+    text-align: left;
+  }
+  
+  .blog_photo_content-read-more:hover{
+    text-decoration: underline;
+  }
+
+  /* Responsive Styles for Mobile */
+@media (max-width: 768px) {
+  .blog-photo-container {
+    flex-direction: column; /* Stack items vertically */
+    gap: 10px;
+  }
+
+  .blog_photo_left-list {
+    width: 100%; /* Full width for mobile */
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blog_photo_list-item {
+    font-size: 14px; /* Smaller font size for mobile */
+  }
+
+  .blog_photo_right-content {
+    width: 100%; /* Full width for mobile */
+  }
+
+  .blog_photo_content-item {
+    padding: 10px; /* Smaller padding for mobile */
+  }
+
+  .blog_photo_content-image {
+    width: 100%; /* Full width for mobile */
+    padding-left: 0; /* Remove extra padding */
+  }
+
+  .blog_photo_content-title {
+    font-size: 20px; /* Adjust title size for mobile */
+  }
+
+  .blog_photo_content-description {
+    font-size: 16px; /* Adjust text size for mobile */
+  }
+}
